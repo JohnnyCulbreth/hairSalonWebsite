@@ -1,7 +1,7 @@
 body {
     width: fit-content;
     background-color: rgb(9, 9, 9);
-    margin: 17px;
+    margin: 16px;
 }
 
 header {
@@ -77,13 +77,54 @@ main {
   text-align: center;
 }
 
+section {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  grid-template-rows: 100%;
+  align-items: center;
+}
+
+.styles {
+  margin: 50px 20px 50px 20px;
+  text-align: center;
+}
+
+.salon-styles {
+  width: 300px;
+  height: 175px;
+  outline: 5px solid white;
+  outline-offset: 20px;
+}
+
+.tag-line2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 65px;
+  letter-spacing: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.tag-line2 span {
+  color: rgb(93, 115, 131);
+}
 
 
 @media (max-width: 991px) {
   main {
-  grid-template-columns: 100%;
-  grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
   }
+
+  body {
+    width: 97vw;
+  }
+
+  section {
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 1fr;
+    margin: 50px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -92,7 +133,7 @@ main {
   }
   
   main {
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
   }
 }
