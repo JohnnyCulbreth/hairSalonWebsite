@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-image: url(salonheader2.jpg);
+    background-image: url(images/salonheader2.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -110,7 +110,7 @@ section {
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   main {
     grid-template-columns: 100%;
     grid-template-rows: 50% 50%;
@@ -124,7 +124,32 @@ section {
     grid-template-columns: 100%;
     grid-template-rows: 33% 33% 1fr;
     margin: 50px;
-    }
+  }
+
+    .tag-line2 {
+      width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+
+  body {
+    width: 97vw;
+  }
+
+  section {
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 1fr;
+    margin: 50px;
+  }
+
+  .tag-line2 {
+      width: 100%;
+  }
 }
 
 @media (min-width: 992px) {
@@ -135,5 +160,22 @@ section {
   main {
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 97vw;
+  }
+  
+  main {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+  }
+
+  section {
+    grid-template-columns: 33% 33% 1fr;
+    grid-template-rows: 100%;
+    margin: 50px;
   }
 }
