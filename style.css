@@ -120,8 +120,12 @@ section {
     width: 97vw;
   }
 
+  nav {
+    text-align: center;
+  }
+
   .salon-inside {
-    width: 300px;
+    width: 250px;
     height: auto;
   }
 
