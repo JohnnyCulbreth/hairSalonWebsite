@@ -120,14 +120,24 @@ section {
     width: 97vw;
   }
 
+  .salon-inside {
+    width: 300px;
+    height: auto;
+  }
+
   section {
     grid-template-columns: 100%;
     grid-template-rows: 33% 33% 1fr;
     margin: 50px;
   }
 
-    .tag-line2 {
-      width: 100%;
+  .salon-styles {
+    width: 200px;
+    height: auto;
+  }
+
+  .tag-line2 {
+    font-size: 15px;
   }
 }
 
