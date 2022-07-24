@@ -151,6 +151,10 @@ section {
     grid-template-rows: 50% 50%;
   }
 
+  nav {
+    text-align: center;
+  }
+
   body {
     width: 97vw;
   }

@@ -24,6 +24,11 @@ span {
     font-weight: bolder;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -74,6 +79,7 @@ h1 {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 50px;
+    letter-spacing: 3px;
 }
 
 input[type=text], select, textarea {
@@ -124,7 +130,7 @@ input[type=submit]:hover {
     .salon-location {
       width: 250px;
       height: 175px;
-      margin-left: -35px;
+      margin-left: -25px;
       margin-bottom: -50px;
     }
 
@@ -132,16 +138,17 @@ input[type=submit]:hover {
       color: white;
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 20px;
+      letter-spacing: 5px;
   }
 
-  .container form {
-    width: 50vw;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    padding: 20px;
-    margin-top: -50px;
-  }
+    .container form {
+      width: 50vw;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      padding: 20px;
+      margin-top: -40px;
+    }
   }
   
   @media (min-width: 768px) {
