@@ -55,7 +55,46 @@ nav ul li a:hover {
     color: lightgrey;
   }
 
+.gallery-pic {
+    width: 350px;
+    height: 275px;
+    outline: 5px solid white;
+    outline-offset: 15px;
+  }
 
+.gallery {
+    margin: 150px 20px 100px 20px;
+    text-align: center;
+  }
+
+section {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 33% 33% 34%;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+  }
+
+.tag-line {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    letter-spacing: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -300px;
+  }
+
+.ig-pic {
+  width: 300px;
+  margin-top: 15px;
+  transition: transform .2s;
+}
+
+.ig-pic:hover {
+    transform: scale(1.15);
+}
 
   @media (max-width: 767px) {
     main {
@@ -70,25 +109,25 @@ nav ul li a:hover {
     nav {
       text-align: center;
     }
-  
-    .salon-inside {
-      width: 250px;
-      height: auto;
-    }
-  
+
     section {
       grid-template-columns: 100%;
-      grid-template-rows: 33% 33% 1fr;
-      margin: 50px;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      align-items: center;
+      margin-top: -40px;
     }
-  
-    .salon-styles {
-      width: 200px;
+
+    .gallery-pic {
+      width: 75vw;
       height: auto;
+      margin-top: -100px;
+      margin-bottom: -100px;
     }
-  
-    .tag-line2 {
-      font-size: 15px;
+
+    .tag-line {
+      font-size: 20px;
+      margin-top: 80px;
+      letter-spacing: 2px;
     }
   }
   
