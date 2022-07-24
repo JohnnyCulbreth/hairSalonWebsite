@@ -59,15 +59,15 @@ main {
 
 .info {
     margin: 75px;
-  text-align: center;
+    text-align: center;
 }
 
 .salon-location {
-  width: 500px;
-  height: 400px;
-  outline: 5px solid white;
-  outline-offset: 25px;
-  margin-left: 100px;
+    width: 500px;
+    height: 400px;
+    outline: 5px solid white;
+    outline-offset: 25px;
+    margin-left: 100px;
 }
 
 h1 {
@@ -85,7 +85,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(93, 115, 131);
+  background-color: gray;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -94,11 +94,13 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: rgb(93, 115, 150);
+  background-color: rgb(93, 115, 131);
 }
 
-.container {
+.container form {
   width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
   padding: 20px;
 }
@@ -118,26 +120,28 @@ input[type=submit]:hover {
     nav {
       text-align: center;
     }
-  
-    .salon-inside {
+
+    .salon-location {
       width: 250px;
-      height: auto;
+      height: 175px;
+      margin-left: -35px;
+      margin-bottom: -50px;
     }
-  
-    section {
-      grid-template-columns: 100%;
-      grid-template-rows: 33% 33% 1fr;
-      margin: 50px;
-    }
-  
-    .salon-styles {
-      width: 200px;
-      height: auto;
-    }
-  
-    .tag-line2 {
-      font-size: 15px;
-    }
+
+    h1 {
+      color: white;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 20px;
+  }
+
+  .container form {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 20px;
+    margin-top: -50px;
+  }
   }
   
   @media (min-width: 768px) {
