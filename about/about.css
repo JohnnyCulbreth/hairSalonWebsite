@@ -55,6 +55,41 @@ nav ul li a:hover {
     color: lightgrey;
   }
 
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.info {
+  margin: 100px 0px 50px 0px;
+  text-align: center;
+}
+
+.founder-pic {
+  width: 450px;
+  height: 600px;
+  outline: 5px solid white;
+  outline-offset: 25px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  letter-spacing: 5px;
+}
+
+p {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 30px;
+  margin-top: -35px;
+  text-align: left;
+  letter-spacing: 3px;
+}
+
 
 
   @media (max-width: 767px) {
