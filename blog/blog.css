@@ -55,6 +55,44 @@ nav ul li a:hover {
     color: lightgrey;
   }
 
+  .center {
+    margin: auto;
+    width: 80%;
+    color: white;
+    padding: 10px;
+  }
+
+  .blog-post {
+    width: auto;
+    height: auto;
+    border: 3px white solid;
+    border-radius: 5px;
+    display: flex;
+    margin: 50px;
+  }
+
+  .blog-image {
+    width: 400px;
+    height: auto;
+    margin: 30px 20px 30px 20px;
+    border-radius: 3px;
+  }
+
+  .content {
+    margin: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  
+
 
 
   @media (max-width: 767px) {
