@@ -16,7 +16,6 @@ header {
     background-position: center;
     text-align: center;
     height: 650px;
-    margin: -25px;
 }
 
 .name {
@@ -121,7 +120,7 @@ nav ul li a:hover {
     }
   
     body {
-      width: 97vw;
+      width: 100vw;
     }
   
     nav {

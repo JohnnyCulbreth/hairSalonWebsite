@@ -6,8 +6,8 @@ body {
 }
 
 .wrapper {
-overflow-x: hidden;
-width: 100vw;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 header {
@@ -16,7 +16,6 @@ header {
     background-position: center;
     text-align: center;
     height: 650px;
-    margin: -25px;
 }
 
 .name {
@@ -109,7 +108,7 @@ section {
     }
   
     body {
-      width: 97vw;
+      width: 100vw;
     }
   
     nav {

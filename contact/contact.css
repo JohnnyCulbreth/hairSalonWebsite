@@ -16,7 +16,6 @@ header {
     background-position: center;
     text-align: center;
     height: 650px;
-    margin: -25px;
 }
 
 .name {
@@ -127,7 +126,7 @@ input[type=submit]:hover {
     }
   
     body {
-      width: 97vw;
+      width: 100vw;
     }
   
     nav {

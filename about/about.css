@@ -16,7 +16,6 @@ header {
     background-position: center;
     text-align: center;
     height: 650px;
-    margin: -25px;
 }
 
 .name {
@@ -105,7 +104,7 @@ p {
     }
   
     body {
-      width: 97vw;
+      width: 100vw;
     }
   
     nav {
