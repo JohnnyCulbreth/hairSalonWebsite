@@ -6,8 +6,8 @@ body {
 }
 
 .wrapper {
-overflow-x: hidden;
-width: 100vw;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 header {
@@ -72,7 +72,9 @@ nav ul li a:hover {
     height: auto;
     border: 3px white solid;
     border-radius: 5px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
     margin: 50px;
   }
 
@@ -126,25 +128,18 @@ nav ul li a:hover {
     nav {
       text-align: center;
     }
-  
-    .salon-inside {
-      width: 250px;
-      height: auto;
-    }
-  
-    section {
+
+    .blog-post {
+      width: 100%;
+      height: 100%;
+      margin-left: 0px;
       grid-template-columns: 100%;
-      grid-template-rows: 33% 33% 1fr;
-      margin: 50px;
+      grid-template-rows: 50% 50%;
     }
-  
-    .salon-styles {
-      width: 200px;
-      height: auto;
-    }
-  
-    .tag-line2 {
-      font-size: 15px;
+
+    .blog-image {
+      width: 90%;
+      height: 90%;
     }
   }
   

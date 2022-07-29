@@ -6,8 +6,8 @@ body {
 }
 
 .wrapper {
-overflow-x: hidden;
-width: 100vw;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 header {
@@ -72,8 +72,8 @@ main {
 }
 
 .founder-pic {
-  width: 450px;
-  height: 600px;
+  width: 500px;
+  height: auto;
   outline: 5px solid white;
   outline-offset: 25px;
 }
