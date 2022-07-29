@@ -1,7 +1,13 @@
 body {
-    width: fit-content;
-    background-color: rgb(9, 9, 9);
-    margin: 16px;
+  width: 100%;
+  background-color: rgb(9, 9, 9);
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+overflow-x: hidden;
+width: 100vw;
 }
 
 header {
