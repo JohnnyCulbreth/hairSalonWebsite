@@ -117,7 +117,7 @@ section {
 footer {
   display: flex;
   justify-content: center;
-  margin: 30px 0px 50px 0px;
+  margin: 100px 0px 50px 0px;
 }
 
 .socials-logo {
@@ -126,9 +126,6 @@ footer {
 
 .follow {
   margin-right: 25px;
-}
-
-h1 {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 5px;
