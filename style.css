@@ -114,6 +114,26 @@ section {
   color: rgb(93, 115, 131);
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0px 50px 0px;
+}
+
+.socials-logo {
+  width: 80px;
+}
+
+.follow {
+  margin-right: 25px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: 5px;
+}
+
 
 @media (max-width: 767px) {
   main {
