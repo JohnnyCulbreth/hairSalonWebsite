@@ -147,17 +147,29 @@ footer {
     .tag-line2 {
       font-size: 15px;
     }
+
+    .socials-logo {
+      width: 40px;
+    }
   }
   
   @media (min-width: 768px) {
     body {
       width: 97vw;
     }
+
+    .socials-logo {
+      width: 60px;
+    }
   }
   
   @media (min-width: 992px) {
     body {
       width: 97vw;
+    }
+
+    .socials-logo {
+      width: 40px;
     }
   }
   

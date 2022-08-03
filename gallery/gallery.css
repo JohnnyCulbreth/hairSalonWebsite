@@ -155,11 +155,19 @@ footer {
       margin-top: 80px;
       letter-spacing: 2px;
     }
+
+    .socials-logo {
+      width: 40px;
+    }
   }
   
   @media (min-width: 768px) {
     body {
       width: 97vw;
+    }
+
+    .socials-logo {
+      width: 60px;
     }
   }
   
@@ -167,10 +175,18 @@ footer {
     body {
       width: 97vw;
     }
+
+    .socials-logo {
+      width: 70px;
+    }
   }
   
   @media (min-width: 1200px) {
     body {
       width: 97vw;
+    }
+
+    .socials-logo {
+      width: 80px;
     }
   }
