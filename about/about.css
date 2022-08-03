@@ -60,10 +60,13 @@ nav ul li a:hover {
     color: lightgrey;
   }
 
-main {
+.main {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .info {
