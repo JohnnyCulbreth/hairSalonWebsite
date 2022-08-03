@@ -123,11 +123,6 @@ footer {
 
 
   @media (max-width: 767px) {
-    main {
-      grid-template-columns: 100%;
-      grid-template-rows: 50% 50%;
-    }
-  
     body {
       width: 100vw;
     }

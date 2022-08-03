@@ -177,4 +177,8 @@ footer {
     body {
       width: 97vw;
     }
+
+    .socials-logo {
+      width: 80px;
+    }
   }
