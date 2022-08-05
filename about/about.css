@@ -130,26 +130,6 @@ footer {
     nav {
       text-align: center;
     }
-  
-    .salon-inside {
-      width: 250px;
-      height: auto;
-    }
-  
-    section {
-      grid-template-columns: 100%;
-      grid-template-rows: 33% 33% 1fr;
-      margin: 50px;
-    }
-  
-    .salon-styles {
-      width: 200px;
-      height: auto;
-    }
-  
-    .tag-line2 {
-      font-size: 15px;
-    }
 
     .socials-logo {
       width: 40px;
