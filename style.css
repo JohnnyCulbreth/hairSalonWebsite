@@ -205,6 +205,10 @@ footer {
   body {
     width: 97vw;
   }
+
+  nav {
+    text-align: center;
+  }
   
   main {
     grid-template-columns: 50% 50%;
@@ -224,6 +228,10 @@ footer {
   main {
     grid-template-columns: 50% 50%;
     grid-template-rows: 100%;
+  }
+
+  nav {
+    text-align: center;
   }
 
   section {

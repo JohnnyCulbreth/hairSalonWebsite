@@ -185,6 +185,10 @@ footer {
       width: 97vw;
     }
 
+    nav {
+      text-align: center;
+    }
+
     .socials-logo {
       width: 60px;
     }
@@ -195,6 +199,10 @@ footer {
       width: 97vw;
     }
 
+    nav {
+      text-align: center;
+    }
+
     .socials-logo {
       width: 70px;
     }
@@ -203,6 +211,10 @@ footer {
   @media (min-width: 1200px) {
     body {
       width: 97vw;
+    }
+
+    nav {
+      text-align: center;
     }
 
     .socials-logo {
