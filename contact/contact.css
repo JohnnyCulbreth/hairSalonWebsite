@@ -150,6 +150,11 @@ footer {
     text-align: center;
   }
 
+  .salon-location {
+    width: 60vw;
+    height: auto;
+  }
+
   .socials-logo {
     width: 40px;
   }
